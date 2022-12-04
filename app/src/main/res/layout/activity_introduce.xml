@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6186BBD1"
+    tools:context=".IntroduceActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6BE2E8F1">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarIntro"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorF8F5F1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/Theme.AppCompat.Light" />
+
+        <LinearLayout android:id="@+id/CTL_top"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarIntro"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbarIntro"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:cardCornerRadius="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp">
+                        <ImageView
+                            android:id="@+id/ivThumbDetail"
+                            android:layout_width="160dp"
+                            android:layout_height="240dp"
+                            android:src="@drawable/image1"
+                            android:scaleType="fitXY" />
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/icons8_homer_simpson_100" />
+
+                        <TextView
+                            android:id="@+id/tvView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="34"
+                            android:textSize="16dp"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="5dp"
+                    app:layout_constraintTop_toBottomOf="@+id/ivThumbDetail">
+
+                    <TextView
+                        android:id="@+id/tvTenTruyen"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="match_parent"
+                        android:text="Name Truyện"
+                        android:fontFamily="@font/nunitobold"
+                        android:textColor="#333232"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/tvTacGia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="TG: Hà Công "
+                        android:textSize="16dp"
+                        android:fontFamily="@font/calibri" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:text="Đạo diễn: Đang cập nhật "
+                        android:textSize="16dp"
+                        android:fontFamily="@font/calibri" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvTheLoai"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:background="@drawable/boderitenintro"
+                            android:fontFamily="@font/nunitobold"
+                            android:padding="10dp"
+                            android:text="Thể loại: Hoạt hình "
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/rbNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableStart="@drawable/ic_star_6"
+                            android:fontFamily="@font/nunitobold"
+
+                            android:layout_marginTop="5dp"
+                            android:text="  5.0 "
+                            android:textSize="20dp" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnRead"
+                        android:layout_width="192dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:backgroundTint="#03A9F4"
+                        android:fontFamily="@font/nunitobold"
+                        android:maxLines="1"
+                        android:text="Đọc ngay"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gửi Đánh giá"
+                android:layout_marginLeft="25dp"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+            <RatingBar
+                android:id="@+id/rbRating"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:numStars="5"
+                android:stepSize="1"
+                android:scaleX=".8"
+                android:layout_marginBottom="20dp"
+                android:scaleY=".8"
+                android:theme="@style/RatingBar"/>
+        </LinearLayout>
+
+        <LinearLayout
+          app:layout_constraintTop_toBottomOf="@+id/CTL_top"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_mo_ta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#6BF6F6F6"
+                    android:fontFamily="@font/calibri_bold"
+                    android:text="Giới thiệu"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btnbinhluan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:backgroundTint="#6B606161"
+                    android:text="Bình luận"
+                    android:layout_marginLeft="10dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/calibri_bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <FrameLayout
+                android:id="@+id/layout_replace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescribeFragment"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#3E3D3D"
+        android:textSize="23dp"
+
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Nguồn: Sưu tầm"/>
+    <TextView
+        android:id="@+id/decription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#202020"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+
+        android:text="Mô Tả:"/>
+    <TextView
+        android:id="@+id/tvMoTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mo_ta_truyen1"
+        android:textColor="#202020"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:fontFamily="@font/calibri" />
+
+</LinearLayout>

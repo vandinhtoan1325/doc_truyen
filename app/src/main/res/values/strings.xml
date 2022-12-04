@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Đọc Truyện</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mo_ta_truyen1">Truyện tranh Conan của tác giả Aoyama Gosho xoay quanh câu chuyện về chàng thám tử trung học Kudo Shinichi trong một lần đang điều tra đã bị Tổ chức Áo Đen ép uống thuốc độc, khiến cho cơ thể của cậu bị teo nhỏ và phải sống dưới thân phận là cậu bé Edogawa Conan.\n \n
+    Mở đầu câu truyện, cậu học sinh trung học 16 tuổi Shinichi Kudo bị biến thành cậu bé Conan Edogawa. Shinichi trong phần đầu của Thám tử lừng danh Conan được miêu tả là một thám tử học đường. \n \n Trong một lần đi chơi công viên “Miền Nhiệt đới” với cô bạn từ thuở nhỏ (cũng là bạn gái) Ran Mori , cậu bị dính vào vụ án một hành khách trên Chuyến tàu tốc hành trong công viên, Kishida , bị giết trong một vụ án cắt đầu rùng rợn. \n \n Cậu đã làm sáng tỏ vụ án và trên đường về nhà, chứng kiến một vụ làm ăn mờ ám của những người đàn ông mặc toàn đồ đen. Kudo bị phát hiện.Tuy nhiên chất độc đã không giết chết Kudo. Khi tỉnh lại, cậu bàng hoàng nhận thấy thân thể mình đã bị teo nhỏ trong hình dạng của một cậu học sinh tiểu học… \n \n</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
